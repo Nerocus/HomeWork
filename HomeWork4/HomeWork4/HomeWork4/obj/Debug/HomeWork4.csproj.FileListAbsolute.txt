@@ -1,0 +1,7 @@
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork4\HomeWork4\HomeWork4\bin\Debug\HomeWork4.exe.config
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork4\HomeWork4\HomeWork4\bin\Debug\HomeWork4.exe
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork4\HomeWork4\HomeWork4\bin\Debug\HomeWork4.pdb
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.csproj.AssemblyReference.cache
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.csproj.CoreCompileInputs.cache
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.exe
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork4\HomeWork4\HomeWork4\obj\Debug\HomeWork4.pdb
