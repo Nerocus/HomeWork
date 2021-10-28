@@ -5,3 +5,10 @@ D:\!!!!!!!курсы!!!!!!!!\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.cs
 D:\!!!!!!!курсы!!!!!!!!\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.csproj.CoreCompileInputs.cache
 D:\!!!!!!!курсы!!!!!!!!\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.exe
 D:\!!!!!!!курсы!!!!!!!!\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.pdb
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork2\HomeWork2\bin\Debug\HomeWork2.exe.config
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork2\HomeWork2\bin\Debug\HomeWork2.exe
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork2\HomeWork2\bin\Debug\HomeWork2.pdb
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.csproj.AssemblyReference.cache
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.csproj.CoreCompileInputs.cache
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.exe
+D:\!!!!!!!курсы!!!!!!!!\Home\HomeWork\HomeWork2\HomeWork2\obj\Debug\HomeWork2.pdb

@@ -9,37 +9,78 @@ namespace HomeWork4
     class Program
     {
         static void Main(string[] args)
-        {/*
-            int[,] num1 = {
-                { 1, 100000, 80000, 20000 },
-                { 2, 120000, 90000, 30000 },
-                { 3,80000,70000,    1000 },
-                { 4,70000 , 70000 , 100000},
-                { 5 ,100000,80000 ,20000 },
-                { 6,200000 ,120000,80000 },
-                { 7, 130000 ,140000, 10000 },
-                { 8,150000 ,65000,85000 },
-                { 9 ,190000, 90000, 100000 },
-                { 10 , 110000 , 70000 ,  40000},
-                { 11 , 150000 , 120000 ,9000 },
-                { 12,100000,80000,20000 }
-            };
-            int minProfit = 20000;
-            int minValue = 0;
-            int Month = 0;
+        {
 
-            for (int i = 0; i < num1.GetLength(0); i++)
+            int[] income = new int[12];// Доход
+            int[] spending = new int[12];//Расход
+         
+            Random rand = new Random();//Рандомное заполнение массива дохода
+            for (int i = 0; i < 12; i++)
             {
-                if (num1[i, 3] <= minProfit)
+                income[i] = rand.Next(0, 3);
+              //  int result1 = income[i] % 1000 >= 500 ? income[i] + 1000 - income[i] % 1000 : income[i] - income[i] % 1000;
+                Console.WriteLine($"{income[i]}");
+            }
+
+            Console.WriteLine();
+
+            
+            for (int i = 0; i < 12; i++)//Рандомное заполнение массива расхода
+            {
+                
+                spending[i] = rand.Next(0, 3);
+              //  int result2 = spending[i] % 1000 >= 500 ? spending[i] + 1000 - spending[i] % 1000 : spending[i] - spending[i] % 1000;
+                Console.WriteLine($"\t{spending[i]}");
+            }
+
+
+            int[] profit = new int[12];
+            for (int i = 0; i < profit.Length; i++) //Расчет прибыли
+             {
+                    profit[i] = income[i] - spending[i];
+                    // int result3 = profit[i] % 1000 >= 500 ? profit[i] + 1000 - profit[i] % 1000 : profit[i] - profit[i] % 1000;
+                    Console.WriteLine($"\t\t{profit[i]}");
+             }
+
+            int[] minValue = new int[12];
+            for (int i = 0; i < profit.Length; i++)
+            {
+                Array.Copy(profit, minValue, profit.Length);
+                    
+               }
+            //Нахождение трёх минимальных значений массива
+            Array.Sort(minValue);
+            var min1 = minValue[0];
+            var min2 = minValue[1];
+            var min3 = minValue[2];
+            Console.WriteLine($"{min1},{min2},{min3}");
+            int month = 0;
+
+            for (int i = 0; i < profit.Length; i++)// Поиск  одинаковой прибыли по месяцам
+            {
+                if (profit[i] == min1 || profit[i] == min2 || profit[i] == min3)
                 {
-                    Month = 
-                    minValue = num1[i, 3];
-                    Console.WriteLine($"{Month},{minValue}");
+                    month = i;
+                    Console.WriteLine($"Месяц с минимальной прибылью: {month}\tПрибыль составила:{profit[i]}");
                 }
             }
-            Console.ReadKey();*/
+            Console.ReadKey();
+            //for (int i = 0; i < num1.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < num2.GetLength(0); j++)
+            //    {
 
+            //    }
+            //}
 
+            //if (num1[i, 3] <= minProfit)
+            //{
+            //    Month =
+            //    minValue = num1[i, 3];
+            //    Console.WriteLine($"{Month},{minValue}");
+            //}
+
+            /*
             Console.Write("Введите количество строк : ");
             int n = int.Parse(Console.ReadLine());
 
@@ -71,7 +112,7 @@ namespace HomeWork4
                 Console.WriteLine();
             }
 
-            Console.ReadKey();
+            Console.ReadKey();*/
         }
     }
 }
