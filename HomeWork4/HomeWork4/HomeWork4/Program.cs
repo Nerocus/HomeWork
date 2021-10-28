@@ -41,11 +41,8 @@ namespace HomeWork4
              }
 
             int[] minValue = new int[12];
-            for (int i = 0; i < profit.Length; i++)
-            {
-                Array.Copy(profit, minValue, profit.Length);
-                    
-            }
+             Array.Copy(profit, minValue, profit.Length);
+ 
             //Нахождение трёх минимальных значений массива
             Array.Sort(minValue);
             var min1 = minValue[0];
